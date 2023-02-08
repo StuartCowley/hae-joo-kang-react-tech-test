@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders App correctly 1`] = `
+<div
+  className="app"
+>
+  <img
+    alt="Nasa logo in red"
+    className="nasa-logo"
+    src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
+  />
+  <div
+    className="search"
+  >
+    <form
+      className="search-form"
+      onSubmit={[Function]}
+    >
+      <input
+        className="search-input"
+        onChange={[Function]}
+        type="text"
+      />
+      <button
+        className="search-button"
+        type="submit"
+      >
+        Go!
+      </button>
+    </form>
+  </div>
+  <h2>
+    Please enter search terms
+  </h2>
+  <div
+    className="search-results"
+  />
+</div>
+`;
